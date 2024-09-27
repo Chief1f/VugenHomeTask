@@ -1,0 +1,4 @@
+"firstName=Jojo&lastName=Bean&address1=Tverskaya&address2=Moscow%2FMoscow+Region%2FZip1&pass1=J"
+"ojo+Bean&creditCard=4634636&expDate=23&oldCCOption=&numPassengers=1&seatType=Business&seatPref"
+"=Window&outboundFlight=780%3B1162%3B09%2F27%2F2024&advanceDiscount=0&returnFlight=&JSFormSubmi"
+"t=off&.cgifields=saveCC&buyFlights.x=24&buyFlights.y=7"
