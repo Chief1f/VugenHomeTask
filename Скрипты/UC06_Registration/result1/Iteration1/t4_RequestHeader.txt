@@ -1,0 +1,13 @@
+GET /cgi-bin/welcome.pl?page=menus HTTP/1.1
+Referer: http://localhost:1080/cgi-bin/login.pl
+Priority: u=4
+DNT: 1
+Sec-GPC: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept-Encoding: gzip, deflate
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Accept: */*
+Connection: Keep-Alive
+Host: localhost:1080
+Cookie: MSO=SID&1727354894; MTUserInfo=firstName&Abub&address2&Ankara%2FAntalia%2FZip2&username&abub&hash&66&lastName&Chuk&address1&EastStreet&creditCard&&expDate&
+

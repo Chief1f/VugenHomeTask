@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Алсу\OneDrive\Документы\VuGen\Scripts\UC05_ReservationCancel
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\алсу\onedrive\документы\vugen\scripts\uc05_reservationcancel\\logfile.log
+c:\users\алсу\onedrive\документы\vugen\scripts\uc05_reservationcancel\\combined_UC05_ReservationCancel.c
+c:\users\алсу\onedrive\документы\vugen\scripts\uc05_reservationcancel\\pre_cci.c

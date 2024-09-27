@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Алсу\OneDrive\Документы\VuGen\Scripts\UC06_Registration
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\алсу\onedrive\документы\vugen\scripts\uc06_registration\\logfile.log
+c:\users\алсу\onedrive\документы\vugen\scripts\uc06_registration\\combined_UC06_Registration.c
+c:\users\алсу\onedrive\документы\vugen\scripts\uc06_registration\\pre_cci.c

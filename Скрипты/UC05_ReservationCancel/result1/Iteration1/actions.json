@@ -1,0 +1,133 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: webtours",
+                "infFile": "t1.inf",
+                "time": 1727362426260
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Submit Form: login.pl",
+                "infFile": "t2.inf",
+                "time": 1727362426594
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Image: Search Flights Button",
+                "infFile": "t3.inf",
+                "time": 1727362427029
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Submit Form: reservations.pl",
+                "infFile": "t4.inf",
+                "time": 1727362427265
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Submit Form: reservations.pl_2",
+                "infFile": "t5.inf",
+                "time": 1727362427479
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Submit Form: reservations.pl_3",
+                "infFile": "t6.inf",
+                "time": 1727362427744
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Image: Itinerary Button",
+                "infFile": "t7.inf",
+                "time": 1727362428078
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Submit Form: itinerary.pl",
+                "infFile": "t8.inf",
+                "time": 1727362428254
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Image: SignOff Button",
+                "infFile": "t9.inf",
+                "time": 1727362428504
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "HomePage",
+                "rawStartTime": 1727362425758,
+                "rawEndTime": 1727362426267,
+                "thinkTime": 0.0,
+                "wastedTime": 0.16074323654174806
+            },
+            {
+                "transactionName": "Login",
+                "rawStartTime": 1727362426283,
+                "rawEndTime": 1727362426602,
+                "thinkTime": 0.0,
+                "wastedTime": 0.010472297668457032
+            },
+            {
+                "transactionName": "FlightsPage",
+                "rawStartTime": 1727362426618,
+                "rawEndTime": 1727362427045,
+                "thinkTime": 0.0,
+                "wastedTime": 0.009033679962158203
+            },
+            {
+                "transactionName": "FindFlight",
+                "rawStartTime": 1727362427062,
+                "rawEndTime": 1727362427267,
+                "thinkTime": 0.0,
+                "wastedTime": 0.005362510681152344
+            },
+            {
+                "transactionName": "ChooseFlight",
+                "rawStartTime": 1727362427298,
+                "rawEndTime": 1727362427487,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004392147064208984
+            },
+            {
+                "transactionName": "FillThePaymentDetails",
+                "rawStartTime": 1727362427503,
+                "rawEndTime": 1727362427757,
+                "thinkTime": 0.0,
+                "wastedTime": 0.006333351135253906
+            },
+            {
+                "transactionName": "GoToItinerary",
+                "rawStartTime": 1727362427773,
+                "rawEndTime": 1727362428090,
+                "thinkTime": 0.0,
+                "wastedTime": 0.00832366943359375
+            },
+            {
+                "transactionName": "CancelReservation",
+                "rawStartTime": 1727362428106,
+                "rawEndTime": 1727362428265,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004451751708984375
+            },
+            {
+                "transactionName": "SignOff",
+                "rawStartTime": 1727362428296,
+                "rawEndTime": 1727362428517,
+                "thinkTime": 0.0,
+                "wastedTime": 0.006928443908691406
+            },
+            {
+                "transactionName": "UC05_ReservationCancel",
+                "rawStartTime": 1727362425742,
+                "rawEndTime": 1727362428533,
+                "thinkTime": 0.0,
+                "wastedTime": 0.21604108810424806
+            }
+        ]
+    }
+]

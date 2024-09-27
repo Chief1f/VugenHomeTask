@@ -1,0 +1,93 @@
+Virtual User Script started at: 26.09.2024 14:06:34
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2020.0.0 for Windows 10; build 793 (ноя 27 2019 19:51:20)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\Алсу\OneDrive\Документы\VuGen\Scripts\UC04_ItinenaryChecking\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(4): web_websocket_send started  	[MsgId: MMSG-26355]
+Action.c(4): Warning -35046: The WebSocket whose ID is "0" is not connected  	[MsgId: MWAR-35046]
+Action.c(4): web_websocket_send highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(11): Notify: Transaction "UC04_ItinenaryChecking" started.
+Action.c(16): Notify: Transaction "HomePage" started.
+Action.c(18): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(18): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(20): web_add_auto_header("Priority") started  	[MsgId: MMSG-26355]
+Action.c(20): web_add_auto_header("Priority") was successful  	[MsgId: MMSG-26392]
+Action.c(23): web_add_auto_header("DNT") started  	[MsgId: MMSG-26355]
+Action.c(23): web_add_auto_header("DNT") was successful  	[MsgId: MMSG-26392]
+Action.c(26): web_add_auto_header("Sec-GPC") started  	[MsgId: MMSG-26355]
+Action.c(26): web_add_auto_header("Sec-GPC") was successful  	[MsgId: MMSG-26392]
+Action.c(29): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+Action.c(29): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+Action.c(34): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(34): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(36): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(36): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(38): web_url("webtours") started  	[MsgId: MMSG-26355]
+Action.c(38): Detected non-resource "http://localhost:1080/webtours/header.html" in "http://localhost:1080/webtours/"  	[MsgId: MMSG-26574]
+Action.c(38): Detected non-resource "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" in "http://localhost:1080/webtours/"  	[MsgId: MMSG-26574]
+Action.c(38): Found resource "http://localhost:1080/webtours/images/hp_logo.png" in HTML "http://localhost:1080/webtours/header.html"  	[MsgId: MMSG-26659]
+Action.c(38): Found resource "http://localhost:1080/webtours/images/webtours.png" in HTML "http://localhost:1080/webtours/header.html"  	[MsgId: MMSG-26659]
+Action.c(38): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Action.c(38): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Action.c(38): Found resource "http://localhost:1080/WebTours/images/mer_login.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+Action.c(38): Registered web_reg_find successful for "Text=A Session ID has been created" (count=1)  	[MsgId: MMSG-26364]
+Action.c(38): web_url("webtours") was successful, 10079 body bytes, 2371 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(47): Notify: Transaction "HomePage" ended with a "Pass" status (Duration: 0,4918 Wasted Time: 0,1526).
+Action.c(52): Notify: Transaction "Login" started.
+Action.c(54): web_add_auto_header("Priority") started  	[MsgId: MMSG-26355]
+Action.c(54): web_add_auto_header("Priority") was successful  	[MsgId: MMSG-26392]
+Action.c(57): web_remove_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+Action.c(57): Previous automatically added web header for "Upgrade-Insecure-Requests" removed  	[MsgId: MMSG-26587]
+Action.c(57): web_remove/revert_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+Action.c(59): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(59): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action.c(64): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(64): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(65): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(65): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(67): web_submit_form("login.pl") started  	[MsgId: MMSG-26355]
+Action.c(67): Submitting form to "http://localhost:1080/cgi-bin/login.pl", Target Frame="body"  	[MsgId: MMSG-27978]
+Action.c(67): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+Action.c(67): Detected non-resource "http://localhost:1080/cgi-bin/login.pl?intro=true" in "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+Action.c(67): Found resource "http://localhost:1080/WebTours/images/flights.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(67): Found resource "http://localhost:1080/WebTours/images/itinerary.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(67): Found resource "http://localhost:1080/WebTours/images/in_home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(67): Found resource "http://localhost:1080/WebTours/images/signoff.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(67): Registered web_reg_find successful for "Text=User password was correct" (count=1)  	[MsgId: MMSG-26364]
+Action.c(67): Registered web_reg_find successful for "Text=Welcome, <b>jojo</b>, to the Web Tours reservation pages." (count=1)  	[MsgId: MMSG-26364]
+Action.c(67): web_submit_form("login.pl") was successful, 5779 body bytes, 2031 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(78): Notify: Transaction "Login" ended with a "Pass" status (Duration: 0,3191 Wasted Time: 0,0090).
+Action.c(83): Notify: Transaction "Itinerary" started.
+Action.c(85): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+Action.c(85): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+Action.c(90): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(90): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(92): web_image("Itinerary Button") started  	[MsgId: MMSG-26355]
+Action.c(92): Image-linking to "http://localhost:1080/cgi-bin/welcome.pl?page=itinerary", Target Frame="body"  	[MsgId: MMSG-27993]
+Action.c(92): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary" in "http://localhost:1080/cgi-bin/welcome.pl?page=itinerary"  	[MsgId: MMSG-26574]
+Action.c(92): Detected non-resource "http://localhost:1080/cgi-bin/itinerary.pl" in "http://localhost:1080/cgi-bin/welcome.pl?page=itinerary"  	[MsgId: MMSG-26574]
+Action.c(92): Resource "http://localhost:1080/WebTours/images/flights.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(92): Found resource "http://localhost:1080/WebTours/images/in_itinerary.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26659]
+Action.c(92): Found resource "http://localhost:1080/WebTours/images/home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26659]
+Action.c(92): Resource "http://localhost:1080/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(92): Error -26612: HTTP Status-Code=500 (Internal Server Error) for "http://localhost:1080/cgi-bin/itinerary.pl"  	[MsgId: MERR-26612]
+Action.c(92): Registered web_reg_find successful for "Text=User wants the intineraries.  Since user has already logged on" (count=1)  	[MsgId: MMSG-26364]
+Action.c(92): web_image("Itinerary Button") highest severity level was "ERROR", 4029 body bytes, 1255 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26387]
+Action.c(92): Notify: Transaction "Itinerary" ended with a "Fail" status (Duration: 0,2434 Wasted Time: 0,0081).
+Action.c(92): Notify: Transaction "Itinerary" has 1 error message(s).
+Action.c(92): Notify: The 1st error message associated with transaction "Itinerary" is "Error -26612: HTTP Status-Code=500 (Internal Server Error) for "http://localhost:1080/cgi-bin/itinerary.pl""
+Action.c(92): Notify: Transaction "UC04_ItinenaryChecking" ended with a "Fail" status (Duration: 1,1025 Wasted Time: 0,1697).
+Action.c(92): Notify: Transaction "UC04_ItinenaryChecking" has 1 error message(s).
+Action.c(92): Notify: The 1st error message associated with transaction "UC04_ItinenaryChecking" is "Error -26612: HTTP Status-Code=500 (Internal Server Error) for "http://localhost:1080/cgi-bin/itinerary.pl""
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
